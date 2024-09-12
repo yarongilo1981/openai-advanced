@@ -1,6 +1,7 @@
 # openai-advanced
 
 A TypeScript library for advanced usage of OpenAI APIs.
+This Project is on it Early stages!!!
 
 ## Installation
 
