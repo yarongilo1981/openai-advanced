@@ -15,7 +15,7 @@
     "build-and-run": "npm run prepare && npm run docs && node dist/sanity.js"
   },
   "keywords": ["OpenAI", "AI", "TypeScript", "library", "machine-learning", "deep-learning", "chatbot", "API"],
-  "author": "Yaron Gilo <your-email@example.com>",
+  "author": "Yaron Gilo Yarongilo@gmail.com",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/yarongilo1981/openai-advanced.git"
