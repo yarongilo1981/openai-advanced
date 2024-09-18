@@ -1,3 +1,5 @@
+// openai-advanced/src/chat/chat.ts
+
 import { JsonSchemaService } from 'json-schema-service';
 import OpenAI from 'openai';
 import {
@@ -9,9 +11,6 @@ import {
   ResponseFormatJSONSchema,
 } from 'openai/resources';
 
-export function chat() {
-  return new Chat();
-}
 export class Chat {
   openai = new OpenAI();
   jsonSchemaService = new JsonSchemaService();
