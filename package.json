@@ -1,6 +1,6 @@
 {
   "name": "openai-advanced",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript library for advanced usage of OpenAI APIs.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,16 @@
     "docs": "typedoc --out docs src",
     "build-and-run": "npm run prepare && npm run docs && node dist/sanity.js"
   },
-  "keywords": ["OpenAI", "AI", "TypeScript", "library", "machine-learning", "deep-learning", "chatbot", "API"],
+  "keywords": [
+    "OpenAI",
+    "AI",
+    "TypeScript",
+    "library",
+    "machine-learning",
+    "deep-learning",
+    "chatbot",
+    "API"
+  ],
   "author": "Yaron Gilo Yarongilo@gmail.com",
   "repository": {
     "type": "git",
