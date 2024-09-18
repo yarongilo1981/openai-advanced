@@ -45,10 +45,10 @@ during tool use.</p>
 <a href="https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4" target="_blank" class="external">GPT-4 Turbo</a>,
 and all GPT-3.5 Turbo models since <code>gpt-3.5-turbo-1106</code>.</p>
 <p>Setting to <code>{ &quot;type&quot;: &quot;json_schema&quot;, &quot;json_schema&quot;: {...} }</code> enables Structured
-Outputs which guarantees the model will match your supplied JSON schema. Learn
-more in the
+Outputs which ensures the model will match your supplied JSON schema. Learn more
+in the
 <a href="https://platform.openai.com/docs/guides/structured-outputs" target="_blank" class="external">Structured Outputs guide</a>.</p>
-<p>Setting to <code>{ &quot;type&quot;: &quot;json_object&quot; }</code> enables JSON mode, which guarantees the
+<p>Setting to <code>{ &quot;type&quot;: &quot;json_object&quot; }</code> enables JSON mode, which ensures the
 message the model generates is valid JSON.</p>
 <p><strong>Important:</strong> when using JSON mode, you <strong>must</strong> also instruct the model to
 produce JSON yourself via a system or user message. Without this, the model may
