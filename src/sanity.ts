@@ -1,5 +1,5 @@
 import { JsonSchemaObject, JsonSchemaProperty } from "json-schema-service";
-import { chat } from "./chat/chat";
+import { chat } from './index';
 
 // src/sanity.ts
 console.log(' ########################### Sanity check start ###########################'+'\n');
